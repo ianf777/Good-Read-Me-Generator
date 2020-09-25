@@ -1,7 +1,7 @@
 
     
     ## Title
-    butterfly
+    GOOD README Generator
 
     ## Table of Contents
     *[Description](#description)
@@ -13,13 +13,13 @@
     *[Questions](#questions)
 
     ## Description
-    to write down the name of all the butterflies i see
+    This program will take user input and output it into a readme file with the proper formatting. This is for developers who want to quickly develop a readme without worrying about missing all bases.
 
     ## Installation
-    download github repo 
+    Download files from github to local device and run npm install to receive the required packages, then run "node index" to initiate the program
 
     ## Usage
-    answer input appropriately so it may be formatted into the readme for your convenience 
+    You simply answer a series of prompts and your file will be generated based upon your input
 
     ##License
     MIT License
@@ -28,7 +28,7 @@
     Ian Fusi
 
     ## Test
-    toaster
+    by running it in console 
 
     ## Questions
     Contact/
