@@ -67,3 +67,13 @@ const questions = [
 ];   
 
 // Function for writing the file
+function writeToFile(fileName, Data) {
+    fs.writeFile(fileName, data, (err) => {
+        if (err) {
+            throw err;
+        }
+        console.log("readMe succesfully generated");
+      });
+    }
+
+//function to initialize the porgram
