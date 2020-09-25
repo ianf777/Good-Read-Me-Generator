@@ -1,7 +1,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const { type } = require("os");
-const generateMarkdown = require(./generateMarkdown);
+const generateMarkdown = require("./generateMarkdown");
 
 // Array for user input questions
 const questions = [
@@ -77,3 +77,12 @@ function writeToFile(fileName, Data) {
     }
 
 //function to initialize the porgram
+function init() {
+    inquirer.prompt(questions).then(answers) => {
+
+        const response = generateMarkdown(answers);
+        console.log(answers);
+
+        writeToFile("README.md", response);
+    })
+}
