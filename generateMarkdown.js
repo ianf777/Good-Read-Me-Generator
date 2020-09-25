@@ -1,7 +1,9 @@
 // Generate markdown for the README
 function generateMarkdown(response) {
     return `
-    # ${response.title}
+    
+    ## Title
+    ${response.title}
 
     ## Table of Contents
     *[Description](#description)
@@ -31,11 +33,11 @@ function generateMarkdown(response) {
     ${response.Test}
 
     ## Questions
-    Contact:
+    Contact/
 
     Github: [${response.Github}](https://github.com/ianf777)
 
-    Email: [${response.Email}]
+    Email: [${response.Email}](ianwfuzzy@gmail.com)
 
     `;
 }

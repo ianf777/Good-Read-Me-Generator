@@ -1,68 +1,70 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const { type } = require("os");
-const generateMarkdown = require("./generateMarkdown").default;
+const generateMarkdown = require("./generateMarkdown");
 
 // Array for user input questions
 const questions = [
     {
         type: "input",
         message: "What is the desired title of this project?",
-        name: "Title"
+        name: "title"
     },
     {
         type: "input",
         message: "Write a description of your project",
-        name: "Description"
+        name: "description"
     },
     {
         type: "input",
         message: "Write the instructions for installing your application here",
-        name: "Install"
+        name: "install"
     
     },
     {
         type: "input",
         message: "How do you use your app?",
-        name: "Instructions"
+        name: "usage"
         
     },
     {
         type: "list",
         message: "select the license you're using",
+        name: "license",
         choices: [
             "MIT License",
             "GVL GPL License",
             "Apache License",
             "No License"
+        
         ]
     },
     {
         type: "input",
         message: "name any contributors here",
-        name: "Contributors"
+        name: "contributors"
 
     },
     {
         type: "input",
         message: "how do you test this app?",
-        name: "Test"
+        name: "test"
 
     },
     {
         type: "input",
         message: "Questions?",
-        name: "Questions"
+        name: "questions"
     },
     {
         type: "input",
         message: "What is your Github Username?",
-        name: "Github"
+        name: "github"
     },
     {
         type: "input",
         message: "What is your email?",
-        name: "Email"
+        name: "email"
     }
 ];   
 
