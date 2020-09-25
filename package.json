@@ -1,0 +1,25 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "An application that will be utilized to quickly generate an appopriate readme for the user utilizing their input.",
+  "main": "index.js",
+  "scripts": {
+    "test": "bike"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianf777/Good-Read-Me-Generator.git"
+  },
+  "keywords": [
+    "ReadMe",
+    "Generator"
+  ],
+  "author": "Ian Fusi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ianf777/Good-Read-Me-Generator/issues"
+  },
+  "homepage": "https://github.com/ianf777/Good-Read-Me-Generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+
