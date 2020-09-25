@@ -1,5 +1,7 @@
 
-    # undefined
+    
+    ## Title
+    butterfly
 
     ## Table of Contents
     *[Description](#description)
@@ -11,28 +13,28 @@
     *[Questions](#questions)
 
     ## Description
-    poppie
+    to write down the name of all the butterflies i see
 
     ## Installation
-    popei
+    download github repo 
 
     ## Usage
-    peooep
+    answer input appropriately so it may be formatted into the readme for your convenience 
 
     ##License
-    undefined
+    MIT License
 
     ## Contributors
-    undefined
+    Ian Fusi
 
     ## Test
-    undefined
+    toaster
 
     ## Questions
-    Contact:
+    Contact/
 
-    Github: [pp](https://github.com/ianf777)
+    Github: [ianf777](https://github.com/ianf777)
 
-    Email: [poopop]
+    Email: [ianwfuzzy@gmail.com](ianwfuzzy@gmail.com)
 
     

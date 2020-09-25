@@ -8,29 +8,29 @@ const questions = [
     {
         type: "input",
         message: "What is the desired title of this project?",
-        name: "title"
+        name: "Title"
     },
     {
         type: "input",
         message: "Write a description of your project",
-        name: "description"
+        name: "Description"
     },
     {
         type: "input",
         message: "Write the instructions for installing your application here",
-        name: "install"
+        name: "Install"
     
     },
     {
         type: "input",
         message: "How do you use your app?",
-        name: "usage"
+        name: "Usage"
         
     },
     {
         type: "list",
         message: "select the license you're using",
-        name: "license",
+        name: "License",
         choices: [
             "MIT License",
             "GVL GPL License",
@@ -42,29 +42,29 @@ const questions = [
     {
         type: "input",
         message: "name any contributors here",
-        name: "contributors"
+        name: "Contributors"
 
     },
     {
         type: "input",
         message: "how do you test this app?",
-        name: "test"
+        name: "Test"
 
     },
     {
         type: "input",
         message: "Questions?",
-        name: "questions"
+        name: "Questions"
     },
     {
         type: "input",
         message: "What is your Github Username?",
-        name: "github"
+        name: "Github"
     },
     {
         type: "input",
         message: "What is your email?",
-        name: "email"
+        name: "Email"
     }
 ];   
 

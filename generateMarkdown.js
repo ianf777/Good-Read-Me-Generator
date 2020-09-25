@@ -3,7 +3,7 @@ function generateMarkdown(response) {
     return `
     
     ## Title
-    ${response.title}
+    ${response.Title}
 
     ## Table of Contents
     *[Description](#description)
