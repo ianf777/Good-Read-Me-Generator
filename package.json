@@ -22,4 +22,6 @@
   "homepage": "https://github.com/ianf777/Good-Read-Me-Generator#readme",
   "dependencies": {
     "inquirer": "^7.3.3"
+  }
+}
 

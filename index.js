@@ -1,7 +1,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const { type } = require("os");
-const generateMarkdown = require("./generateMarkdown");
+const generateMarkdown = require("./generateMarkdown").default;
 
 // Array for user input questions
 const questions = [
@@ -67,7 +67,7 @@ const questions = [
 ];   
 
 // Function for writing the file
-function writeToFile(fileName, Data) {
+function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) => {
         if (err) {
             throw err;
@@ -78,7 +78,7 @@ function writeToFile(fileName, Data) {
 
 //function to initialize the porgram
 function init() {
-    inquirer.prompt(questions).then(answers) => {
+    inquirer.prompt(questions).then((answers) => {
 
         const response = generateMarkdown(answers);
         console.log(answers);
